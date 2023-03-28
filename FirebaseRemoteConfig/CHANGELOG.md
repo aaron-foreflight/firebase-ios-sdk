@@ -1,3 +1,6 @@
+# ForeFlight Changes
+- [changed] The `SQLITE_OPEN_FILEPROTECTION_COMPLETEUNTILFIRSTUSERAUTHENTICATION` flag is only used if it's available. This allows custom SQLite3 builds that are not based on Apple's custom, internal implementation to use Remote Config.
+ 
 # 9.3.0
 - [changed] Arrays and Dictionaries are now supported when initializing defaults from a
   plist. (#8306)
