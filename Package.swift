@@ -153,7 +153,7 @@ let package = Package(
       "9.2.0" ..< "10.0.0"
     ),
     .package(
-      url: "https://github.com/aaron-foreflight/GoogleUtilities.git",
+      url: "https://github.com/google/GoogleUtilities.git",
       branch: "main"
     ),
     .package(
